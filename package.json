@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"nodemon ./dist\"",
+    "ts-watch": "nodemon ./src/index.ts",
+    "start": "ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
